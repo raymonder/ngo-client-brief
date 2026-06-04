@@ -1,5 +1,7 @@
 # ngo-client-brief
 
+Version: 0.9
+
 为 Raymond 首次拜访 NGO 客户前生成会前简报的 Codex skill。它把公开资料、财务数字和灵析销售关注点整理成一份会议前可速读、会议中可翻阅、会后可回灌的作战文件。
 
 ## 能实现什么功能
@@ -113,4 +115,3 @@ ngo-client-brief/
 - 更新 `references/financial-extraction-workflow.md` 中的 OCR 命令和财报字段映射。
 - 根据真实会后反馈迭代 `templates/brief-template.md`，但保持固定结构，避免每次输出漂移。
 - 如新增行业分支，例如宗教、长者服务、青少年服务，可放到 `references/`，不要把 `SKILL.md` 写得过长。
-
